@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "node app.js",
     "start": "node app.js",
-    "postinstall": "cd web && npm install && npm run build"
+    "postinstall": "cd web && npm install --include=dev && npm run build"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -26,4 +26,5 @@
     "node": ">=14"
   }
 }
+
 
